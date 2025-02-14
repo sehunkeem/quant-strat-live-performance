@@ -1,0 +1,33 @@
+metric,value
+As of Date,2/14/25
+Number of Observations,15
+Sharpe Ratio,9.2701
+Unlev Max Drawdown,0.0059
+Unlev MDD Duration,3
+Unlev Avg Drawdown,0.0036
+Unlev ADD Duration,1.25
+Rolling 60-Day Sharpe,
+Win Rate,0.6667
+Daily Mean Return,0.004279
+Annualized Mean Return,1.5617
+Daily Vol,0.008818
+Annualized Vol,0.1685
+60-Day Annual Vol,
+Sortino Ratio,35.135
+Profit Factor,5.3571
+Skew,1.6476
+Excess Kurtosis,2.9528
+1% VaR,-0.00572
+5% VaR,-0.005121
+VaR(1%)/VaR(5%) Ratio,1.117
+1% Top,0.027563
+5% Top,0.017494
+Top(1%)/Top(5%) Ratio,1.5756
+Levered Max Drawdown,0.0218
+Average Turnover,0.7666
+Average Transaction Cost,0.000545
+Average Slippage,0.000161
+Average Exchange Fee,0.000383
+Inferred Slippage per Unit Turnover (bp),0.000209
+t-stat on Return,1.8793
+p-value on Return,0.0812
