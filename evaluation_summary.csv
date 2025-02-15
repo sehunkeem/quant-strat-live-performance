@@ -1,29 +1,29 @@
 metric,value
-As of Date,2025-02-14
-Number of Observations,15
-Sharpe Ratio,9.2701
+As of Date,2025-02-15
+Number of Observations,16
+Sharpe Ratio,10.1777
 Max Drawdown,0.0059
 MDD Duration,3
 Avg Drawdown,0.0036
 ADD Duration,1.25
 Rolling 60-Day Sharpe,
-Win Rate,0.6667
-Daily Mean Return,0.004279
-Annualized Mean Return,1.5617
-Daily Vol,0.008818
-Annualized Vol,0.1685
+Win Rate,0.6875
+Daily Mean Return,0.004585
+Annualized Mean Return,1.6735
+Daily Vol,0.008607
+Annualized Vol,0.1644
 60-Day Annual Vol,
-Sortino Ratio,35.135
-Profit Factor,5.3571
-Skew,1.6476
-Excess Kurtosis,2.9528
-1% VaR,-0.00572
-5% VaR,-0.005121
-VaR(1%)/VaR(5%) Ratio,1.117
-1% Top,0.027563
-5% Top,0.017494
-Top(1%)/Top(5%) Ratio,1.5756
-Average Turnover,0.7666
-Inferred Slippage per Unit Turnover (bp),0.000209
-t-stat on Return,1.8793
-p-value on Return,0.0812
+Sortino Ratio,37.6505
+Profit Factor,5.9803
+Skew,1.5526
+Excess Kurtosis,2.8659
+1% VaR,-0.00571
+5% VaR,-0.005068
+VaR(1%)/VaR(5%) Ratio,1.1267
+1% Top,0.027383
+5% Top,0.016595
+Top(1%)/Top(5%) Ratio,1.6501
+Average Turnover,0.7768
+Inferred Slippage per Unit Turnover (bp),0.0002
+t-stat on Return,2.1309
+p-value on Return,0.0501
