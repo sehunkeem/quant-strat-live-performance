@@ -14,16 +14,16 @@ This repository demonstrates a live market-neutral quantitative trading strategy
 ## Plots
 
 - **`cumulative_return_unlevered.png`**  
-  Shows the strategy’s unlevered cumulative return over time, illustrating the growth of 1 unit since trading began.
+  Shows the strategy’s unlevered cumulative return over time.
 
 - **`distribution_unlevered_returns.png`**  
-  Displays a histogram of daily unlevered returns, helping visualize the frequency and magnitude of gains/losses.
+  Displays a histogram of daily unlevered returns.
 
 - **`drawdown_unlevered.png`**  
   Plots the strategy’s drawdown over time—i.e., how far the portfolio has fallen from its historical peak.
 
 - **`scatter_strategy_vs_btc.png`**  
-  A scatter plot comparing daily strategy returns vs. BTC daily returns, useful for spotting correlation or regime shifts.
+  A scatter plot comparing daily strategy returns vs. BTC daily returns.
 
 - **`scatter_strategy_vs_eth.png`**  
-  A scatter plot comparing daily strategy returns vs. ETH daily returns, likewise illustrating any relationship or dispersion of returns.
+  A scatter plot comparing daily strategy returns vs. ETH daily returns.
