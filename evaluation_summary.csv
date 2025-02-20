@@ -14,9 +14,9 @@ Profit Factor,3.4753
 Daily Vol,0.008081
 Annualized Vol,0.154378
 60-Day Annual Vol,
-Max Drawdown,0.0082
+Max Drawdown,0.008157
 MDD Duration,5
-Avg Drawdown,0.0044
+Avg Drawdown,0.004449
 ADD Duration,2.0
 Skew,1.7699
 Excess Kurtosis,3.9062
@@ -26,12 +26,12 @@ VaR(1%)/VaR(5%) Ratio,1.1723
 1% Top,0.026484
 5% Top,0.0121
 Top(1%)/Top(5%) Ratio,2.1888
-Average Turnover,0.7837
-Inferred Slippage per Unit (bp),0.000224
+Average Turnover,0.783667
+Inferred Slippage per Unit (bp),0.000192
 t-stat on Return,1.7608
 p-value on Return,0.0936
-Daily Alpha (Multi-Factor: BTC + ETH),0.002639
-Beta to BTC (Multi-Factor),-0.130941
-Beta to ETH (Multi-Factor),-0.029656
-Correlation (Strategy vs. BTC),-0.3517
-Correlation (Strategy vs. ETH),-0.2898
+Daily Alpha (Multi-Factor: BTC + ETH),0.002485
+Beta to BTC (Multi-Factor),-0.135896
+Beta to ETH (Multi-Factor),-0.030596
+Correlation (Strategy vs. BTC),-0.3672
+Correlation (Strategy vs. ETH),-0.3035
