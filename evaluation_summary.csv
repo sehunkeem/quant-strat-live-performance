@@ -5,7 +5,7 @@ Realized Cumulative Return,0.07365
 Daily Mean Return,0.003265
 Annualized Mean Return,1.191725
 CAGR,2.251179
-Sharpe Ratio,7.8745
+Sharpe Ratio,8.085
 Sortino Ratio,28.8566
 Calmar Ratio,275.98
 Rolling 60-Day Sharpe,
@@ -30,8 +30,8 @@ Average Turnover,0.787263
 Inferred Slippage per Unit (bp),0.00019736
 t-stat on Return,1.9332
 p-value on Return,0.0668
-Daily Alpha (Multi-Factor: BTC + ETH),0.002485
-Beta to BTC (Multi-Factor),-0.135896
-Beta to ETH (Multi-Factor),-0.030596
-Correlation (Strategy vs. BTC),-0.3672
-Correlation (Strategy vs. ETH),-0.3035
+Daily Alpha (Multi-Factor: BTC + ETH),0.002853
+Beta to BTC (Multi-Factor),-0.106268
+Beta to ETH (Multi-Factor),-0.035089
+Correlation (Strategy vs. BTC),-0.3243
+Correlation (Strategy vs. ETH),-0.2898
