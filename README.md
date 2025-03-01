@@ -1,6 +1,6 @@
 # Quant Strategy - Live Performance Tracking
 
-This repository demonstrates a live market-neutral quantitative trading strategy I have been running in the cryptocurrency market since January 31, 2025. Performance metrics and plots are automatically updated on a daily basis.
+This repository demonstrates a live market-neutral quantitative portfolio management strategy I have been running in the cryptocurrency market since January 31, 2025. Performance metrics and plots are automatically updated on a daily basis.
 
 ---
 

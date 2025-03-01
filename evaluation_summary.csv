@@ -8,9 +8,9 @@ CAGR,1.053529
 Sharpe Ratio,5.1143
 Sortino Ratio,15.8458
 Calmar Ratio,58.7877
+Omega Ratio,2.2647
 Rolling 60-Day Sharpe,
 Win Rate,0.5517
-Profit Factor,2.2647
 Daily Vol,0.007471
 Annualized Vol,0.142738
 60-Day Annual Vol,
@@ -27,7 +27,7 @@ VaR(1%)/VaR(5%) Ratio,1.4855
 5% Top,0.011008
 Top(1%)/Top(5%) Ratio,2.2752
 Average Turnover,0.797185
-Inferred Slippage per Unit (bp),0.00022523
+Realized Average Slippage,0.00022523
 t-stat on Return,1.4416
 p-value on Return,0.1605
 Daily Alpha (Multi-Factor: BTC + ETH),0.001688
