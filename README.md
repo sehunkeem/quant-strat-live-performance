@@ -22,8 +22,8 @@ This repository demonstrates a live market-neutral quantitative portfolio manage
 - **`drawdown_unlevered.png`**  
   Plots the strategy’s drawdown over time—i.e., how far the portfolio has fallen from its historical peak.
 
-- **`scatter_strategy_vs_btc.png`**  
-  A scatter plot comparing daily strategy returns vs. BTC daily returns.
+- **`scatter_strategy_vs_btc_eth.png`**  
+  A scatter plot comparing daily strategy returns vs. BTC/ETH daily returns.
 
-- **`scatter_strategy_vs_eth.png`**  
-  A scatter plot comparing daily strategy returns vs. ETH daily returns.
+- **`monthly_returns_heatmap.png`**  
+  Displays a heatmap of monthly unlevered returns.
