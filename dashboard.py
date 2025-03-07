@@ -43,9 +43,9 @@ selected_plot = st.sidebar.selectbox('Select Plot to View:', list(plot_files.key
 
 selected_plot_file = plot_files[selected_plot]
 
-full_plot_path = os.path.join('plots', selected_plot_file)
+#full_plot_path = os.path.join('plots', selected_plot_file)
 
-if os.path.exists(full_plot_path):
+if os.path.exists(selected_plot_file):
     st.subheader(selected_plot)
     img = Image.open(full_plot_path)
     st.image(img, use_container_width=True)
