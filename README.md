@@ -2,6 +2,10 @@
 
 This repository demonstrates a live market-neutral quantitative portfolio management strategy I have been running in the cryptocurrency market since January 31, 2025. Performance metrics and plots are automatically updated on a daily basis.
 
+## Interactive Dashboard
+
+You can explore interactive performance metrics and visualizations on the [Quant Strategy Dashboard](https://quant-strat-live-performance-daqdrmca2knbflylgh7vxh.streamlit.app/).
+
 ---
 
 ## Daily Metrics
