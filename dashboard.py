@@ -7,7 +7,7 @@ st.title('Quant Strategy Performance Dashboard')
 
 @st.cache_data
 def load_metrics():
-    df = pd.read_csv('evaluation_summary.csv')
+    df = pd.read_csv('metrics/evaluation_summary.csv')
     return df
 
 metrics_df = load_metrics()
@@ -40,7 +40,7 @@ selected_plot = st.sidebar.selectbox('Select Plot to View:', list(plot_files.key
 
 selected_plot_file = plot_files[selected_plot]
 
-full_plot_path = os.path.join(selected_plot_file)
+full_plot_path = os.path.join("metrics", selected_plot_file)
 
 st.subheader(selected_plot)
 img = Image.open(full_plot_path)
