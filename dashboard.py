@@ -32,9 +32,8 @@ plot_files = {
     'Cumulative Return': 'cumulative_return_unlevered.png',
     # 'Rolling Sharpe Ratio (60-Day)': 'rolling_sharpe_unlevered.png',
     # 'Rolling Volatility (60-Day)': 'rolling_vol_unlevered.png',
-    'Scatter vs BTC/ETH': 'scatter_strategy_vs_btc.png',
+    'Scatter vs BTC/ETH': 'scatter_strategy_vs_btc_eth.png',
     'Monthly Returns Heatmap': 'monthly_returns_heatmap.png',
-    'Cumulative Return (Levered)': 'cumulative_return_levered.png',
     'Returns Distribution': 'distribution_unlevered_returns.png',
     'Drawdown Over Time': 'drawdown_unlevered.png'
 }
