@@ -19,7 +19,7 @@ st.dataframe(metrics_df := pd.read_csv('evaluation_summary.csv'), use_container_
 
 st.sidebar.header('Available Plots')
 plot_choices = [
-    'Cumulative Return (Unlevered)',
+    'Cumulative Return',
     # 'Rolling Sharpe Ratio (60-Day)',
     # 'Rolling Volatility (60-Day)',
     'Scatter vs BTC/ETH',
@@ -31,7 +31,7 @@ plot_choices = [
 selected_plot = st.sidebar.selectbox('Select Plot to View:', plot_choices)
 
 plot_files = {
-    'Cumulative Return (Unlevered)': 'cumulative_return_unlevered.png',
+    'Cumulative Return': 'cumulative_return_unlevered.png',
     # 'Rolling Sharpe Ratio (60-Day)': 'rolling_sharpe_unlevered.png',
     # 'Rolling Volatility (60-Day)': 'rolling_vol_unlevered.png',
     'Scatter vs BTC/ETH': 'scatter_strategy_vs_btc.png',
@@ -46,7 +46,7 @@ selected_plot = st.sidebar.selectbox("Select plot to display:", plot_choices)
 plot_path = os.path.join('plots')
 
 plot_files = {
-    'Cumulative Return (Unlevered)': 'cumulative_return_unlevered.png',
+    'Cumulative Return': 'cumulative_return_unlevered.png',
     # 'Rolling Sharpe Ratio (60-Day)': 'rolling_sharpe_unlevered.png',
     # 'Rolling Volatility (60-Day)': 'rolling_vol_unlevered.png',
     'Scatter vs BTC/ETH': 'scatter_strategy_vs_btc_eth.png',
