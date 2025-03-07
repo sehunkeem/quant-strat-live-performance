@@ -58,7 +58,7 @@ selected_plot_file = plot_files.get(plot_choices[0])
 selected_plot = st.sidebar.selectbox('Select plot', list(plot_files.keys()))
 selected_plot_file = plot_files[selected_plot]
 
-full_plot_path = os.path.join(plot_path, selected_plot_file)
+full_plot_path = os.path.join(selected_plot_file)
 
 if os.path.exists(full_plot_path):
     st.subheader(selected_plot)
