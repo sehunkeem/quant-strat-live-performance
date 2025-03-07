@@ -12,10 +12,10 @@ def load_metrics():
     df = pd.read_csv('evaluation_summary.csv')
     return df
 
-metrics_df = load_metrics = pd.read_csv('evaluation_summary.csv')
+metrics_df = load_metrics()
 
 st.header('📊 Performance Metrics')
-st.dataframe(metrics_df := pd.read_csv('evaluation_summary.csv'), use_container_width=True)
+st.dataframe(metrics_df, use_container_width=True)
 
 st.sidebar.header('Available Plots')
 plot_choices = [
@@ -28,8 +28,6 @@ plot_choices = [
     'Drawdown'
 ]
 
-selected_plot = st.sidebar.selectbox('Select Plot to View:', plot_choices)
-
 plot_files = {
     'Cumulative Return': 'cumulative_return_unlevered.png',
     # 'Rolling Sharpe Ratio (60-Day)': 'rolling_sharpe_unlevered.png',
@@ -37,28 +35,15 @@ plot_files = {
     'Scatter vs BTC/ETH': 'scatter_strategy_vs_btc.png',
     'Monthly Returns Heatmap': 'monthly_returns_heatmap.png',
     'Cumulative Return (Levered)': 'cumulative_return_levered.png',
-    'Unlevered Returns Distribution': 'distribution_unlevered_returns.png',
+    'Returns Distribution': 'distribution_unlevered_returns.png',
     'Drawdown Over Time': 'drawdown_unlevered.png'
 }
 
-selected_plot = st.sidebar.selectbox("Select plot to display:", plot_choices)
+selected_plot = st.sidebar.selectbox('Select Plot to View:', list(plot_files.keys()))
 
-plot_path = os.path.join('plots')
-
-plot_files = {
-    'Cumulative Return': 'cumulative_return_unlevered.png',
-    # 'Rolling Sharpe Ratio (60-Day)': 'rolling_sharpe_unlevered.png',
-    # 'Rolling Volatility (60-Day)': 'rolling_vol_unlevered.png',
-    'Scatter vs BTC/ETH': 'scatter_strategy_vs_btc_eth.png',
-    'Monthly Returns Heatmap': 'monthly_returns_heatmap.png',
-    'Drawdown': 'drawdown_unlevered.png'
-}
-
-selected_plot_file = plot_files.get(plot_choices[0])
-selected_plot = st.sidebar.selectbox('Select plot', list(plot_files.keys()))
 selected_plot_file = plot_files[selected_plot]
 
-full_plot_path = os.path.join(selected_plot_file)
+full_plot_path = os.path.join('plots', selected_plot_file)
 
 if os.path.exists(full_plot_path):
     st.subheader(selected_plot)
