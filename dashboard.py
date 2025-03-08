@@ -21,18 +21,18 @@ plot_choices = [
     # 'Rolling Volatility (60-Day)',
     'Scatter vs BTC/ETH',
     'Monthly Returns Heatmap',
-    'Unlevered Returns Distribution',
+    'Returns Distribution',
     'Drawdown'
 ]
 
 plot_files = {
-    'Cumulative Return': 'cumulative_return_unlevered.png',
-    # 'Rolling Sharpe Ratio (60-Day)': 'rolling_sharpe_unlevered.png',
-    # 'Rolling Volatility (60-Day)': 'rolling_vol_unlevered.png',
+    'Cumulative Return': 'cumulative_return.png',
+    # 'Rolling Sharpe Ratio (60-Day)': 'rolling_sharpe.png',
+    # 'Rolling Volatility (60-Day)': 'rolling_vol.png',
     'Scatter vs BTC/ETH': 'scatter_strategy_vs_btc_eth.png',
     'Monthly Returns Heatmap': 'monthly_returns_heatmap.png',
-    'Returns Distribution': 'distribution_unlevered_returns.png',
-    'Drawdown Over Time': 'drawdown_unlevered.png'
+    'Returns Distribution': 'distribution_returns.png',
+    'Drawdown Over Time': 'drawdown.png'
 }
 
 selected_plot = st.sidebar.selectbox('Select Plot to View:', list(plot_files.keys()))
