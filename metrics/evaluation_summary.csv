@@ -26,6 +26,7 @@ VaR(1%)/VaR(5%) Ratio,1.5491
 1% Top,0.028057
 5% Top,0.016005
 Top(1%)/Top(5%) Ratio,1.753
+5% CVaR,-0.00742
 Average Turnover,0.808324
 Realized Average Slippage,0.00024031
 t-stat on Return,2.2537
