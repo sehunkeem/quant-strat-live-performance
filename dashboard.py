@@ -17,22 +17,22 @@ st.dataframe(metrics_df, use_container_width=True)
 st.sidebar.header('Available Plots')
 plot_choices = [
     'Cumulative Return',
-    # 'Rolling Sharpe Ratio (60-Day)',
-    # 'Rolling Volatility (60-Day)',
-    'Scatter vs BTC/ETH',
     'Monthly Returns Heatmap',
+    'Rolling Metrics',
     'Returns Distribution',
-    'Drawdown'
+    'Drawdown',
+    'Scatter vs BTC/ETH',
+
 ]
 
 plot_files = {
     'Cumulative Return': 'cumulative_return.png',
-    # 'Rolling Sharpe Ratio (60-Day)': 'rolling_sharpe.png',
-    # 'Rolling Volatility (60-Day)': 'rolling_vol.png',
-    'Scatter vs BTC/ETH': 'scatter_strategy_vs_btc_eth.png',
     'Monthly Returns Heatmap': 'monthly_returns_heatmap.png',
+    'Rolling Metrics': 'rolling_metrics_30_days.png',
     'Returns Distribution': 'distribution_returns.png',
-    'Drawdown Over Time': 'drawdown.png'
+    'Drawdown Over Time': 'drawdown.png',
+    'Scatter vs BTC/ETH': 'scatter_strategy_vs_btc_eth.png',
+
 }
 
 selected_plot = st.sidebar.selectbox('Select Plot to View:', list(plot_files.keys()))

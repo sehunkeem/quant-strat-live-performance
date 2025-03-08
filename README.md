@@ -17,17 +17,17 @@ You can explore interactive performance metrics and visualizations on the [Quant
 
 ## Plots
 
-- **`cumulative_return_unlevered.png`**  
-  Shows the strategy’s unlevered cumulative return over time.
+- **`cumulative_return.png`**  
+  Shows the strategy’s cumulative return over time.
 
-- **`distribution_unlevered_returns.png`**  
-  Displays a histogram of daily unlevered returns.
+- **`distribution_returns.png`**  
+  Displays a histogram of daily returns.
 
-- **`drawdown_unlevered.png`**  
+- **`drawdown.png`**  
   Plots the strategy’s drawdown over time—i.e., how far the portfolio has fallen from its historical peak.
 
 - **`scatter_strategy_vs_btc_eth.png`**  
   A scatter plot comparing daily strategy returns vs. BTC/ETH daily returns.
 
 - **`monthly_returns_heatmap.png`**  
-  Displays a heatmap of monthly unlevered returns.
+  Displays a heatmap of monthly returns.
