@@ -5,7 +5,6 @@ from PIL import Image
 
 st.title('Quant Strategy Performance Dashboard')
 
-@st.cache_data
 def load_metrics():
     df = pd.read_csv('metrics/evaluation_summary.csv')
     return df
