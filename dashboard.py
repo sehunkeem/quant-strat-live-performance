@@ -48,7 +48,7 @@ st.image(img, use_container_width=True)
 
 st.sidebar.header('Strategy Information')
 st.sidebar.info("""
-This dashboard presents key performance metrics and visualizations for the quantitative market-neutral portfolio strategy. Deployed in the cryptocurrency market since January 21, 2025, the strategy's metrics and visualizations are updated automatically each day to reflect lateset performance.
+This dashboard presents *live* performance metrics and visualizations for the quantitative market-neutral portfolio strategy. Deployed in the cryptocurrency market since January 31, 2025, the strategy's metrics and visualizations are updated automatically each day to reflect lateset performance.
 
-The dashboard includes various analytical metrics, such as cumulative returns, drawdowns, monthly returns heatmaps, rolling metrics, and scatter plots against benchmark cryptocurrencies such as BTC and ETH.
+The dashboard includes various analytical metrics, such as cumulative returns, Sharpe ratio, drawdowns, monthly returns heatmaps, rolling metrics, and scatter plots against benchmark cryptocurrencies such as BTC and ETH.
 """)
