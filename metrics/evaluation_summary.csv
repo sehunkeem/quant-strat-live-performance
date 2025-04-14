@@ -1,37 +1,37 @@
 metric,value
-As of Date,2025-04-12
-Number of Observations,72
-Realized Cumulative Return,0.037301
-Daily Mean Return,0.000538
-Annualized (Arithmetic) Mean Return,0.196193
-CAGR,0.204007
-Sharpe Ratio,1.3418
-Sortino Ratio,2.3615
-Calmar Ratio,2.5954
-Omega Ratio,1.2207
-Rolling 60-Day Sharpe,0.1648
-Win Rate,0.5278
-Daily Vol,0.007653
-Annualized Vol,0.14622
-60-Day Annual Vol,0.151728
+As of Date,2025-04-13
+Number of Observations,73
+Realized Cumulative Return,0.041616
+Daily Mean Return,0.000587
+Annualized (Arithmetic) Mean Return,0.214305
+CAGR,0.226137
+Sharpe Ratio,1.4736
+Sortino Ratio,2.5795
+Calmar Ratio,2.877
+Omega Ratio,1.2445
+Rolling 60-Day Sharpe,0.3505
+Win Rate,0.5342
+Daily Vol,0.007612
+Annualized Vol,0.145426
+60-Day Annual Vol,0.152055
 Max Drawdown,0.078603
 MDD Duration (Days),24
-Avg Drawdown,0.016408
-ADD Duration (Days),5.3
-Skew,0.8855
-Excess Kurtosis,3.0251
-1% VaR,-0.014854
-5% VaR,-0.01063
-VaR(1%)/VaR(5%) Ratio,1.3974
-1% Top,0.025976
-5% Top,0.012084
-Top(1%)/Top(5%) Ratio,2.1497
+Avg Drawdown,0.017489
+ADD Duration (Days),5.4
+Skew,0.8693
+Excess Kurtosis,3.0485
+1% VaR,-0.014795
+5% VaR,-0.010624
+VaR(1%)/VaR(5%) Ratio,1.3926
+1% Top,0.025918
+5% Top,0.012082
+Top(1%)/Top(5%) Ratio,2.1452
 5% CVaR,-0.013508
-Average Turnover,0.803386
-t-stat on Return,0.5959
-p-value on Return,0.5531
-Daily Alpha (Multi-Factor: BTC + ETH),0.000338
-Beta to BTC (Multi-Factor),0.039089
-Beta to ETH (Multi-Factor),-0.034969
-Correlation (Strategy vs. BTC),-0.0288
-Correlation (Strategy vs. ETH),-0.0752
+Average Turnover,0.806535
+t-stat on Return,0.659
+p-value on Return,0.512
+Daily Alpha (Multi-Factor: BTC + ETH),0.000386
+Beta to BTC (Multi-Factor),0.038074
+Beta to ETH (Multi-Factor),-0.034811
+Correlation (Strategy vs. BTC),-0.032
+Correlation (Strategy vs. ETH),-0.0776
