@@ -1,5 +1,5 @@
 metric,value
-As of Date,2025-04-19
+As of Date,2025-04-22
 Number of Observations,79
 Realized Cumulative Return,0.030347
 Daily Mean Return,0.000405
@@ -15,7 +15,7 @@ Daily Vol,0.007383
 Annualized Vol,0.141053
 60-Day Annual Vol,0.130179
 Max Drawdown,0.08478
-MDD Duration (Days),31
+MDD Duration (Days),34
 Avg Drawdown,0.023623
 ADD Duration (Days),6.0
 Skew,0.9393
@@ -27,11 +27,11 @@ VaR(1%)/VaR(5%) Ratio,1.3634
 5% Top,0.012073
 Top(1%)/Top(5%) Ratio,2.1181
 5% CVaR,-0.013508
-Average Turnover,0.811342
+Average Turnover,0.813792
 t-stat on Return,0.4879
 p-value on Return,0.627
-Daily Alpha (Multi-Factor: BTC + ETH),0.000221
-Beta to BTC (Multi-Factor),0.034456
-Beta to ETH (Multi-Factor),-0.033031
-Correlation (Strategy vs. BTC),-0.0368
-Correlation (Strategy vs. ETH),-0.0793
+Daily Alpha (Multi-Factor: BTC + ETH),0.000237
+Beta to BTC (Multi-Factor),0.034313
+Beta to ETH (Multi-Factor),-0.032982
+Correlation (Strategy vs. BTC),-0.0419
+Correlation (Strategy vs. ETH),-0.0829
