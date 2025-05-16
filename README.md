@@ -7,16 +7,25 @@ This repository hosts a market-neutral quantitative portfolio management strateg
 ## Key Considerations
 
 - **Sharpe Ratio**  
-  Calculated assuming a zero risk-free rate and annualized by a factor of $\sqrt{365}$.
-
-- **Model Version**  
-  Version 2 of the strategy was deployed on **May 15, 2025 00:00:00 UTC**, superseding the original implementation.
+  Computed assuming a zero risk-free rate and annualized by $\sqrt{365}$.
 
 - **Net Performance**  
-  All metrics reflect returns net of transaction costs and slippage.
+  All returns are reported net of transaction costs and slippage.
 
 - **Leverage & Scaling**  
-  While the strategy may employ dynamic leverage and capital adjustments, all return series are reported on a zero-leverage basis for comparability.
+  Although the strategy may dynamically adjust leverage and capital, returns are rescaled to a zero-leverage basis for consistency.
+
+---
+
+## Model Version & History
+
+**Current:** v2 (deployed **2025-05-15 00:00 UTC**)  
+**Previous:** v1 (2025-01-31 → 2025-05-14)
+
+| Version | Effective Dates           | Notes                      |
+| ------- | ------------------------- | -------------------------- |
+| **v1**  | 2025-01-31 to 2025-05-14  | initial deployment         |
+| **v2**  | 2025-05-15 to present     | model improvement          |
 
 ---
 
