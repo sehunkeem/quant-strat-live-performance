@@ -13,7 +13,7 @@ This repository hosts a market-neutral quantitative portfolio management strateg
   All returns are reported net of transaction costs and slippage.
 
 - **Leverage & Scaling**  
-  Although the strategy may dynamically adjust leverage and capital, returns are rescaled to a zero-leverage basis for consistency.
+  While leverage and capital may be adjusted dynamically at my discretion, all returns are normalized to a zero-leverage basis for consistency.
 
 ---
 
