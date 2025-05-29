@@ -2,6 +2,8 @@
 
 This repository hosts a market-neutral quantitative portfolio management strategy that has been running live in the cryptocurrency market since **January 31, 2025**. The portfolio is rebalanced once per day, and all performance metrics and visualizations are updated automatically on a daily cadence.
 
+All live and backtest-related metrics and plots are located in the `metrics` directory.
+
 ---
 
 ## Key Considerations
