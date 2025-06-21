@@ -16,7 +16,7 @@ All live and backtest-related metrics and plots are located in the `metrics` dir
   All returns are reported net of transaction costs and slippage.
 
 - **Leverage Normalization**  
-  Leverage may be actively adjusted; however, all reported performance metrics are normalized to a **zero-leverage** baseline for consistency and comparability.
+  Leverage may be adjusted; however, all reported performance metrics are normalized to a **zero-leverage** baseline for consistency and comparability.
 
 ---
 
@@ -25,7 +25,7 @@ All live and backtest-related metrics and plots are located in the `metrics` dir
 | Version | Dates                      | Notes                                                                 |
 | ------- | -------------------------- | --------------------------------------------------------------------- |
 | **v1**  | 2025-01-31 → 2025-05-15     | Initial deployment using residual-based signals and DL prediction head |
-| **v2**  | 2025-05-15 → 2025-06-18     | Integrated model ensembling and top-k selection to improve stability |
+| **v2**  | 2025-05-15 → 2025-06-18     | Integrated model ensembling to improve stability |
 | **v3**  | 2025-06-21 → Present        | Introduced dynamic position capping to mitigate outlier exposure risks |
 
 ---
