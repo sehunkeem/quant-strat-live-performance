@@ -1,5 +1,5 @@
 metric,value
-As of Date,2025-06-16
+As of Date,2025-06-20
 Number of Observations,134
 Realized Cumulative Return,-0.028525
 Daily Mean Return,-0.000167
@@ -15,9 +15,9 @@ Daily Vol,0.009861
 Annualized Vol,0.188398
 60-Day Annual Vol,0.231395
 Max Drawdown,0.152635
-MDD Duration (Days),89
-Avg Drawdown,0.057056
-ADD Duration (Days),11.5
+MDD Duration (Days),93
+Avg Drawdown,0.057746
+ADD Duration (Days),11.6
 Skew,-0.9766
 Excess Kurtosis,11.3024
 1% VaR,-0.019412
@@ -27,7 +27,7 @@ VaR(1%)/VaR(5%) Ratio,1.6514
 5% Top,0.012499
 Top(1%)/Top(5%) Ratio,2.2595
 5% CVaR,-0.022349
-Average Turnover,0.845561
+Average Turnover,0.846722
 t-stat on Return,-0.1964
 p-value on Return,0.8446
 Daily Alpha (Multi-Factor: BTC + ETH),-0.000231
