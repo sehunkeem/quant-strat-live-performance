@@ -21,63 +21,33 @@ All live and backtest-related metrics and plots are located in the `metrics` dir
 
 ## Notable Observations
 
-This section highlights significant stress events, model failures, and noteworthy patterns encountered during live trading.
-
 - **2025-05-31 – Tail Event**  
-  Incurred a **-6.07% daily loss** due to a short position in **LPTUSDT**, which experienced a sudden **100+% daily surge**.
+  Incurred a **-6.07% daily loss** due to a short position in **LPTUSDT**, which experienced a sudden 100+% daily surge. An extreme move rarely seen even in historical stress periods, and not the level of daily loss observed during backtest.
 
 - **2025-06-17 – Over-concentration**  
   The strategy assigned an unusually high **26.6% weight** to **MAGICUSDT**.
-  - **Fix**: Introduced **max weight constraint** in v3 to control excessive exposures.  
+  - **Fix**: Introduced max weight constraint in v3 to control excessive exposures.  
 
 - **2025-07-01 – Tail Event**  
-  Incurred a **-4.66% daily loss** due to a short position in **HFTUSDT**, which rose over **100% in a single day** — an extreme move rarely seen even in historical stress periods.
+  Incurred a **-4.66% daily loss** due to a short position in **HFTUSDT**, which rose over 100% in a single day.
 
 ---
 
 ## Strategy Thoughts
 
-This section documents evolving thoughts about market behavior and model limitations observed during live deployment. Entries are grouped by month.
-
----
 
 ### 2025-05
 
-- **Intraday vs. Daily Divergence**: Noted that two tokens with nearly identical current-day **daily return signals** often showed **very different intraday PnL paths**.
-  - Hypothesis: Incorporating **intraday signals** may improve robustness.
-- **Sudden Dumps**: Some small cap altcoins exhibited sharp dumps with no preceding pumps.
+- **Intraday vs. Daily Divergence**: Noted that two tokens with nearly identical current-day daily return signals often showed very different intraday PnL paths.
+  - Hypothesis: Incorporating intraday signals may improve robustness.
+- **Sudden Dumps**: Some small cap altcoins exhibited sharp dumps with no preceding pumps. Could be due to growing fear in the market.
 
 ---
 
 ### 2025-06
 
 - **Possible Regime Shift**: The market may have entered a new regime not seen during the backtest period.
-  - Following tariff announcements and geopolitical tensions, behavior seems to have become **non-stationary**. The frequent and sudden direction and sentiment reversals regime may not be ideal for the model.
-  
-<!------->
-<!---->
-<!--### 2025-07-->
-<!---->
-<!--- Observation: tokens that outperform on one day **often continue to outperform** for 1–3 days.-->
-<!--- Could signal a **temporary momentum regime** emerging.-->
-<!--- Ongoing investigation: Can a regime classifier detect this and adapt allocation?-->
-<!---->
----
-
-
-## Daily Metrics
-
-- **`evaluation_summary.csv`**  
-  Contains end-of-day performance and risk statistics (e.g., Sharpe, volatility, max drawdown).
-
----
-
-## Performance Visualizations
-
-- **`cumulative_return.png`** – Cumulative net return  
-- **`drawdown.png`** – Peak-to-trough drawdown curve  
-- **`monthly_returns_heatmap.png`** – Calendar heatmap of monthly returns
-
+  - Following tariff announcements and geopolitical tensions, behavior seems to have become non-stationary. The frequent and sudden direction/sentiment reversals regime may not be ideal for the model.
 
 ---
 
