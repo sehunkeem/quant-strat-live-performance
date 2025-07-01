@@ -1,7 +1,9 @@
 # Quantitative Strategy – Live Performance Tracking
 
-This repository hosts a deep-learning driven market-neutral quantitative portfolio management strategy that has been running live in the cryptocurrency market since **January 31, 2025**. The portfolio is rebalanced once per day, and all performance metrics and visualizations are updated automatically on a daily cadence.
 
+This repository documents a deep learning–based, market-neutral statistical arbitrage strategy deployed live in the cryptocurrency futures market since **January 31, 2025**. The strategy is rebalanced once per day, with all performance metrics and visualizations automatically refreshed on a daily basis.
+
+The core architecture combines **PCA-based residual construction** with deep neural networks to capture temporal patterns for portfolio construction.
 
 All live and backtest-related metrics and plots are located in the `metrics` directory.
 
