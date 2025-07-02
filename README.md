@@ -3,7 +3,7 @@
 
 This repository documents a deep learning–based, market-neutral statistical arbitrage strategy deployed live in the cryptocurrency futures market since **January 31, 2025**. The strategy is rebalanced once per day, with all performance metrics and visualizations automatically refreshed on a daily basis.
 
-The core architecture combines **PCA-based residual construction** with deep neural networks to capture temporal patterns for portfolio construction.
+The core architecture combines **statistical factors-based residual construction** with deep neural networks to capture temporal patterns for portfolio construction.
 
 All live and backtest-related metrics and plots are located in the `metrics` directory.
 
@@ -48,7 +48,7 @@ All live and backtest-related metrics and plots are located in the `metrics` dir
 
 ### 2025-06
 
-- **Possible Regime Shift**: The market may have entered a new regime not seen during the backtest period.
+- **Possible Regime Shift**: Since April 2025, the market may have entered a new regime not seen during the backtest period.
   - Following tariff announcements and geopolitical tensions, behavior seems to have become non-stationary. The frequent and sudden direction/sentiment reversals regime may not be ideal for the model.
 
 ---
