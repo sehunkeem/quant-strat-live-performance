@@ -15,7 +15,7 @@ All live and back-test metrics refresh automatically and are published under **`
 | 2025-06-21 (v3) | Added dynamic position caps to curb tail exposure. |
 | 2025-05-15 (v2) | Stabilized model outputs to reduce stochastic noise. |
 
-*(Earlier versions kept for full transparency; v4 is the authoritative baseline.)*
+*(Earlier versions kept for full transparency; v4 is the baseline.)*
 
 ---
 
