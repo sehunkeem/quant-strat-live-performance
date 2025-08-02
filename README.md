@@ -1,41 +1,46 @@
 # Quantitative Strategy – Live Performance Tracking
 
-This repository tracks a deep learning–based, market-neutral statistical arbitrage strategy deployed live in cryptocurrency futures since **January 31, 2025**. The system combines PCA residual factor construction with neural network models for daily portfolio construction. All metrics (live and backtest) and visualizations refresh automatically.
 
-All plots and metrics are located in the `metrics/` directory.
-
----
-
-## Model Versions
-
-| Version | Dates                      | Key Changes / Notes |
-| ------- | -------------------------- | ------------------- |
-| **v1**  | 2025-01-31 → 2025-05-15     | Initial live deployment (residual signals + DL head) |
-| **v2**  | 2025-05-15 → 2025-06-18     | Improved output stability to reduce stochasticity |
-| **v3**  | 2025-06-21 → 2025-07-28     | Introduced dynamic position capping to limit outlier exposure |
-| **v4**  | 2025-07-28 → Present        | Fixed a live/backtest implementation divergence; this is the first version expected to faithfully reflect backtest behavior (remaining differences from funding and slippage) |
-
----
-
-## Performance Reporting
-
-- **Sharpe Ratio**: Annualized by √365, assuming zero risk-free rate.  
-- **Net Returns**: All returns are net of estimated transaction costs and slippage.  
-- **Leverage Normalization**: Metrics are normalized to a zero-leverage baseline to ensure comparability across versions.
-
-### Versioned Metrics
-
-- Historical (v1–v3) performance is presented for transparency; these versions included implementation discrepancies and were exposed to turbulent regime conditions that contributed to divergence from backtest expectations.  
-- **v4-only metrics** are highlighted as the current reliable baseline, post-fix, and are the primary reference for ongoing evaluation.
+This repository tracks a deep-learning, market-neutral statistical-arbitrage strategy deployed live in cryptocurrency futures since **31 Jan 2025**.  
+The system combines PCA-based residual factors with neural networks for daily portfolio construction.  
+All live and back-test metrics refresh automatically and are published under **`metrics/`**.
 
 ---
 
 ## Recent Improvements
 
-- Diagnosed and corrected a subtle implementation mismatch between the live execution and backtest pipeline in v4, reducing pipeline drift and improving live/backtest alignment.  
-- Enhanced risk controls (e.g., dynamic capping) and ensemble stability mechanisms over successive versions.  
-- Ongoing monitoring indicates that v4 live performance now closely tracks the corresponding backtest, with residual deviations attributable to real-market frictions (funding, slippage).
+| Date        | Change |
+|-------------|--------|
+| **2025-07-28 (v4)** | **Pipeline fix** – removed a subtle live/back-test logic mismatch that had lowered live Sharpe; live results now track back-tests except for normal frictions (funding, slippage). |
+| 2025-06-21 (v3) | Added dynamic position caps to curb tail exposure. |
+| 2025-05-15 (v2) | Stabilized model outputs to reduce stochastic noise. |
 
+*(Earlier versions kept for full transparency; v4 is the authoritative baseline.)*
+
+---
+
+## Model Versions
+
+| Version | Dates | Key Notes |
+|---------|-------|-----------|
+| **v1** | 2025-01-31 → 2025-05-15 | Initial deployment |
+| **v2** | 2025-05-15 → 2025-06-18 | Output-stability enhancements |
+| **v3** | 2025-06-21 → 2025-07-28 | Dynamic position capping |
+| **v4** | 2025-07-28 → **Present** | Pipeline fix — first version expected to align closely with back-tests |
+
+---
+
+## Performance Reporting
+
+* **Sharpe Ratio** – annualized by √365, zero risk-free rate  
+* **Net Returns** – after estimated fees & slippage  
+* **Leverage Normalization** – all metrics shown on a 1x baseline
+
+### Versioned Metrics
+
+- **v1–v3 (historical):** Shown for transparency. v2–v3 contained a live/back-test logic mismatch and ran through highly volatile market regimes, may have produced live Sharpe well below the backtest Sharpe.  
+
+- **v4-only (current baseline):** Post-fix metrics; first version that reliably mirrors the back-test. These are the primary numbers to reference going forward.
 
 <!---->
 <!---->
